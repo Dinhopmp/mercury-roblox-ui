@@ -781,7 +781,7 @@ function Library:create(options)
 			TextScaled = true,
 			Position = UDim2.new(0, 105,0, 10),
 			Theme = {TextColor3 = {"Tertiary", 10}},
-			Size = UDim2.new(0, 200,0, 20),
+			Size = UDim2.new(0, 150,0, 20),
 			BackgroundTransparency = 1,
 			TextXAlignment = Enum.TextXAlignment.Left
 		})
