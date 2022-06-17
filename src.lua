@@ -781,7 +781,7 @@ function Library:create(options)
 			TextScaled = true,
 			Position = UDim2.new(0, 105,0, 10),
 			Theme = {TextColor3 = {"Tertiary", 10}},
-			Size = UDim2.new(0, 400,0, 40),
+			Size = UDim2.new(0, 200,0, 20),
 			BackgroundTransparency = 1,
 			TextXAlignment = Enum.TextXAlignment.Left
 		})
@@ -793,7 +793,7 @@ function Library:create(options)
 		TextScaled = true,
 		Position = UDim2.new(0, 105,0, 47),
 		Theme = {TextColor3 = "Tertiary"},
-		Size = UDim2.new(0, 400,0, 20),
+		Size = UDim2.new(0, 200,0, 10),
 		BackgroundTransparency = 1,
 		TextXAlignment = Enum.TextXAlignment.Left
 	})
@@ -801,7 +801,7 @@ function Library:create(options)
 	local timeDisplay = profile:object("TextLabel", {
 		BackgroundTransparency = 1,
 		Position = UDim2.new(0, 105, 1, -10),
-		Size = UDim2.new(0, 400,0, 20),
+		Size = UDim2.new(0, 200,0, 10),
 		AnchorPoint = Vector2.new(0, 1),
 		Theme = {TextColor3 = {"WeakText", -20}},
 		TextScaled = true,
